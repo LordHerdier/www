@@ -5,7 +5,7 @@ FROM klakegg/hugo:ext-alpine AS builder
 WORKDIR /src
 COPY . .
 RUN rm -rf public && mkdir public
-RUN hugo --minify
+RUN hugo
 
 # Stage 2: Serve with Nginx
 FROM nginx:alpine
