@@ -8,6 +8,12 @@ Hey there! Welcome to the source code for my website. This is where the magic ha
 - **Docker:** Make sure you have Docker installed on your machine.
 - **Basic Docker Know-how:** If you're new to Docker, there are plenty of tutorials out there. It's not rocket science, promise.
 
+### Cloning the Repository
+```bash
+git clone --recurse https://github.com/LordHerdier/www.git
+```
+This command clones the repository as well as the theme sub repo
+
 ### Building the Docker Image
 From the project root, run:
 
