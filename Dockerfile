@@ -6,7 +6,7 @@ WORKDIR /src
 # Copy all project files into the builder container
 COPY . .
 # Build the static site with minification (remove --minify if you prefer)
-RUN hugo --minify
+RUN hugo --minify --baseURL "https://charlotte.whittleman.net"
 
 # Stage 2: Serve with Nginx
 FROM nginx:alpine

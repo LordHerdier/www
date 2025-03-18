@@ -1,4 +1,4 @@
-# Charlotte's Website
+# Charlotte's Web
 
 Hey there! Welcome to the source code for my website. This is where the magic happens—Hugo meets Nginx in a Dockerized love affair. If you're curious, go ahead and fork, clone, or just lurk around. I offer limited support here, but feel free to ping me if you run into any hiccups.
 
