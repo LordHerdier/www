@@ -10,8 +10,6 @@ RUN hugo
 # Stage 2: Serve with Nginx
 FROM nginx:alpine
 COPY --from=builder /src/public /usr/share/nginx/html
-# Clean nginx share
-RUN rm /usr/share/nginx/html/index.html
 # Adjust file permissions so Nginx can read them
 RUN find /usr/share/nginx/html -type d -exec chmod 755 {} \; && \
     find /usr/share/nginx/html -type f -exec chmod 644 {} \;
