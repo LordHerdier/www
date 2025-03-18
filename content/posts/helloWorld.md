@@ -3,7 +3,7 @@ date = '2025-03-18T10:34:56-05:00'
 draft = false
 title = 'Hello, World!'
 tags = ['blogging']
-description = 'A classic first post.'
+description = 'An obligatory first post.'
 type = 'post'
 +++
 
