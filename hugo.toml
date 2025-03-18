@@ -1,0 +1,80 @@
+baseURL = 'https://charlotte.whittleman.net'
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+languageCode = 'en-us'
+title = "Charlotte Whittleman"
+theme = 'gokarna'
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 3
+    ordered = false
+
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+        pre = "<span data-feather='home'></span>"
+
+    [[menu.main]]
+        name = "Posts"
+        url = "/posts"
+        weight = 2
+        pre = "<span data-feather='book'></span>"
+
+    [[menu.main]]
+        name = "About"
+        url = "/about"
+        weight = 3
+        pre = "<span data-feather='user'></span>"
+
+    [[menu.main]]
+        name = "Tags"
+        url = "/tags/"
+        weight = 4
+        pre = "<span data-feather='tag'></span>"
+        
+    [[menu.main]]
+        identifier = "github"
+        url = "https://github.com/LordHerdier"
+        weight = 5
+        pre = "<span data-feather='github'></span>"
+    post = ""
+
+    [[menu.main]]
+        identifier = "linkedin"
+        url = "https://www.linkedin.com/in/whittleman/"
+        weight = 6
+        pre = "<span data-feather='linkedin'></span>"
+    post = ""
+
+    [[menu.main]]
+        identifier = "rss"
+        url = "/index.xml"
+        weight = 7
+        pre = "<span data-feather='rss'></span>"
+    post = ""
+
+[params]
+    avatarURL = "/images/pfp.jpg"
+    avatarSize = "size-m"
+    avatarAltText = "Profile Picture"
+    accentColor = "#88d066"
+    titleColor = "#0098fd"
+    dateFormat = "January 2, 2006"
+    description = "System Administrator, AV Engineer, Home-labber"
+    footer = "Charlotte Whittleman"
+    numberPostsOnHomePage = 4
+    showBackToTopButton = true
+    showPostsOnHomePage = "recent"
+    togglePreviousAndNextButtons = true
+    displayReadingTime = true
+
+    socialIcons = [
+      {name = "github", url = "https://github.com/LordHerdier"},
+      {name = "linkedin", url = "https://www.linkedin.com/in/whittleman/"},
+      {name = "email", url = "mailto:Charlotte@Whittleman.net"},
+      {name = "reddit", url = "https://www.reddit.com/user/AVBibliophile/"},
+    ]
