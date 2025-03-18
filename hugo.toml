@@ -2,7 +2,7 @@ baseURL = 'https://charlotte.whittleman.net'
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 languageCode = 'en-us'
-title = "Charlotte Whittleman"
+title = "Charlotte's Web"
 theme = 'gokarna'
 
 [markup]
