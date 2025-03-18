@@ -11,7 +11,7 @@ RUN hugo --minify
 FROM nginx:alpine
 COPY --from=builder /src/public /usr/share/nginx/html
 # Clean nginx share
-RUN rm -rf /usr/share/nginx/html/*
+RUN rm /usr/share/nginx/html/index.html
 # Adjust file permissions so Nginx can read them
 RUN find /usr/share/nginx/html -type d -exec chmod 755 {} \; && \
     find /usr/share/nginx/html -type f -exec chmod 644 {} \;
