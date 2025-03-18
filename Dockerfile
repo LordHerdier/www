@@ -12,6 +12,8 @@ RUN hugo --minify
 
 # Stage 2: Serve with Nginx
 FROM nginx:alpine
+# Clean nginx share
+RUN rm -rf /usr/share/nginx/html/*
 # Copy the generated static files from the builder stage into Nginx's html directory
 COPY --from=builder /src/public /usr/share/nginx/html
 
