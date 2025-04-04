@@ -15,11 +15,11 @@ Maybe you've heard of Traefik, NGINX proxy manager, swag, or any of the other re
 
 So what's the solution? Enter: **Pangolin**, a proxy server, VPN server, and platform identity handler all rolled into one.
 
-![Pangolin Logo Banner](/static/images/pangolin2.png)
+![Pangolin Logo Banner](/images/pangolin2.png)
 
-```
-Pangolin is a self-hosted tunneled reverse proxy server with identity and access control, designed to securely expose private resources on distributed networks. Acting as a central hub, it connects isolated networks — even those behind restrictive firewalls — through encrypted tunnels, enabling easy access to remote services without opening ports. 
-```
+
+>Pangolin is a self-hosted tunneled reverse proxy server with identity and access control, designed to securely expose private resources on distributed networks. Acting as a central hub, it connects isolated networks — even those behind restrictive firewalls — through encrypted tunnels, enabling easy access to remote services without opening ports. 
+
 -[Pangolin's Github](https://github.com/fosrl/pangolin)
 
 # The Pangolin Edge: Beyond Traditional Proxies
@@ -47,6 +47,6 @@ If you have setup a traditional reverse proxy server before, you know they can b
 
 # Usage Photos
 
-![Pangolin Home Screen](/static/images/pangolin1.png)
+![Pangolin Home Screen](/images/pangolin1.png)
 
-![Pangolin Collage](/static/images/pangolin3.png)
+![Pangolin Collage](/images/pangolin3.png)
