@@ -1,3 +1,4 @@
++++
 date = '2025-06-04T18:24:56-05:00'
 draft = false
 title = 'Linux SSO with Authentik and LDAP'
