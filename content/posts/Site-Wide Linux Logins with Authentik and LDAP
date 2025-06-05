@@ -1,0 +1,18 @@
+date = '2025-06-04T18:24:56-05:00'
+draft = true
+title = 'Site-Wide Linux Logins with Authentik and LDAP'
+tags = ['linux','SSO','Authentik','LDAP',’Guide’]
+description = 'Setting up single login across multiple linux machines'
+type = 'post'
++++
+
+# The Problem
+In a production environment, you will often have dozens if not hundreds or thousands of different machines and servers you will need to be able to login to. Completely unmanaged, this could mean having to go to each machine and add your necessary users, update permissions, and adjust any other settings you may need. For two machines that might be okay, but for hundreds? No bueno.
+
+For homelabers, you probably don’t have hundreds of different machines, but you still may have a few dozen different virtual machines that you want to synchronize logins on. If you’re already running [Authentik](https://goauthentik.io/), you already have everything you need to setup single sign on for all of your servers.
+
+If you don’t have Authentik running and are interested in setting up SSO for not just your linux logins but for your websites as well, then check out Christian Lempa’s guide for installing and configuring Authentik [here.](https://youtu.be/N5unsATNpJk?si=WSXns2jzPNfl_wCO)
+# Environment
+*This guide was written with a debian-based system in mind. Setup on other distributions may be similar, but check your distro’s official documentation for more information*
+
+
