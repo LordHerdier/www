@@ -2,7 +2,7 @@
 date = '2025-06-09T07:24:56-05:00'
 draft = false
 title = 'Why You Should Stop Hurting Yourself and Use Colemak Already'
-tags = ['colemak, 'typing','efficiency']
+tags = ['colemak, 'typing', 'efficiency']
 description = "Why Colemak is the best keyboard layout ever"
 type = 'post'
 +++
