@@ -36,7 +36,7 @@ You retain most of your muscle memory, especially punctuation and shortcuts (Ctr
 
 Don’t believe me? Behold this heatmap of the 1000 most common English words, and guess what? On Colemak, they basically **live** on the home row. Your fingers barely move. It's not just comfy—it's disturbingly efficient. You’ll feel like a wizard. A lazy wizard. The best kind.
 
-![Colemak top 1000 English Words Heatmap](/images/Colemak-top-1000-English-words.png)
+[Colemak top 1000 English Words Heatmap](/images/Colemak-top-1000-English-words.png)
 
 ## Key Rolling: The Butter of Typing
 
