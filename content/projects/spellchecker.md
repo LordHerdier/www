@@ -4,7 +4,7 @@ draft = false
 title = 'Spellchecker'
 tags = ['nlp','text-processing','utility']
 description = 'Small spell checking website'
-type = 'project'
+type = 'post'
 +++
 
 # Spellchecker

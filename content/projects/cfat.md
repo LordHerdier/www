@@ -3,12 +3,12 @@ date = '2025-06-18T16:14-05:00'
 draft = false
 title = 'CFAT'
 tags = ['testing','automation','tools']
-description = 'Comprehensive File Analysis Tool'
-type = 'project'
+description = 'Custom File Allocation Table (FAT) Implementation'
+type = 'post'
 +++
 
-# CFAT (Comprehensive File Analysis Tool)
+# CFAT 
 
-A powerful file analysis tool designed to provide comprehensive insights into file structures, content patterns, and metadata.
+A clone of the FAT spec that let's you dynamically interact with your operating system.
 
 *Project details coming soon...*

@@ -4,7 +4,7 @@ draft = false
 title = 'Ansible LDAP Integration'
 tags = ['ansible','ldap','automation','sysadmin']
 description = 'Ansible playbooks for LDAP integration and management'
-type = 'project'
+type = 'post'
 +++
 
 # Ansible LDAP Integration

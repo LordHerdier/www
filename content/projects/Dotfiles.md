@@ -4,7 +4,7 @@ draft = false
 title = 'Dotfiles'
 tags = ['zsh','bash','dotfiles','configuration']
 description = 'My personal dotfiles repository'
-type = 'project'
+type = 'post'
 +++
 
 # Dotfiles

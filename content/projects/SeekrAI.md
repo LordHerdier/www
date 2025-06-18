@@ -4,7 +4,7 @@ draft = false
 title = 'SeekrAI'
 tags = ['ai','machine-learning','project','job-search']
 description = 'AI-powered Job search and discovery tool'
-type = 'project'
+type = 'post'
 +++
 
 # SeekrAI

@@ -4,7 +4,7 @@ draft = false
 title = 'Crestron Commands'
 tags = ['crestron','av','automation','tools']
 description = 'Command-line tools for Crestron AV system management'
-type = 'project'
+type = 'post'
 +++
 
 # Crestron Commands
