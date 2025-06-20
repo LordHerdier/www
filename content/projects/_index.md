@@ -1,7 +1,7 @@
---
+---
 title: "Projects"
 type: page 
---
+---
 
 ## These are some projects I've been working on:
 1. [Dotfiles](/projects/dotfiles/)
