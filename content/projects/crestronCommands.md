@@ -9,6 +9,10 @@ type = 'post'
 
 # Crestron Commands
 
-A suite of command-line tools designed to simplify management and automation of Crestron AV systems in large-scale deployments.
+A collection of crestron's cli commands.
 
-*Project details coming soon...*
+This is necessary because a lot of the commands are not documented and are hidden to the user.
+
+As a Crestron engineer, I use these commands to automate the management of our AV systems.
+
+Check out the [repo](https://github.com/LordHerdier/CrestronCommands) for more details.

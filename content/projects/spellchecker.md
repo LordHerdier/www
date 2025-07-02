@@ -11,4 +11,6 @@ type = 'post'
 
 A small website that let's you check the spelling of your words.
 
-*Project details coming soon...*
+Just a project for fun, nothing serious.
+
+Check out the [repo](https://github.com/LordHerdier/Spellchecker) for more details.

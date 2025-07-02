@@ -1,0 +1,41 @@
+{{ define "main" }}
+<div class="container">
+    <h1>{{ .Title }}</h1>
+    
+    <!-- Display any content from _index.md -->
+    {{ .Content }}
+    
+    <!-- Automatically list all projects -->
+    <div class="projects-list">
+        {{ range .Pages.ByTitle }}
+            {{ if .Params.description }}
+            <div class="project-item" style="margin-bottom: 2rem; padding: 1.5rem; border: 1px solid #e0e0e0; border-radius: 8px;">
+                <h2 style="margin-top: 0;">
+                    <a href="{{ .Permalink }}" style="text-decoration: none; color: var(--accent-color, #88d066);">
+                        {{ .Title }}
+                    </a>
+                </h2>
+                <p style="margin-bottom: 1rem; color: #666;">{{ .Params.description }}</p>
+                
+                <!-- Display tags if they exist -->
+                {{ if .Params.tags }}
+                <div class="project-tags">
+                    {{ range .Params.tags }}
+                    <span style="display: inline-block; background: #f0f0f0; padding: 0.2rem 0.5rem; margin: 0.1rem; border-radius: 4px; font-size: 0.8rem;">
+                        {{ . }}
+                    </span>
+                    {{ end }}
+                </div>
+                {{ end }}
+                
+                <div style="margin-top: 1rem;">
+                    <a href="{{ .Permalink }}" style="color: var(--accent-color, #88d066); text-decoration: none; font-weight: bold;">
+                        Read more →
+                    </a>
+                </div>
+            </div>
+            {{ end }}
+        {{ end }}
+    </div>
+</div>
+{{ end }} 
